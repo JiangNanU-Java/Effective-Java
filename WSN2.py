@@ -12,34 +12,41 @@ def dist(v_A, v_B):
     return np.sqrt(np.power((v_A[0] - v_B[0]), 2) + np.power((v_A[1] - v_B[1]), 2))
 
 
-def node_factory(N,energy=5000):
+def node_factory(N, energy=5000):
     """
     生成N个节点的集合
     :param N: 节点的数目
+    :param selected_flag: 标志:是否被选择为簇首-->初始化为0
     :param energy: 能量
     :return: 节点集合nodes=[[x,y,e],[x,y,e]...]
     """
     nodes = []
+    selected_flag = []
     for _ in range(N):
         # 在1*1矩阵生成[x,y,e]坐标
         node = [np.random.random(), np.random.random(), energy]
         nodes.append(node)
         # print("生成的节点为:", node)
+        # 对应的选择标志初始化为0
+        selected_flag.append(0)
+
     # print("生成:", len(nodes), "个节点")
     # print("初始化标志列表为", selected_flag)
-    return nodes
+    return nodes,selected_flag
 
 
-def sel_heads(nodes):
+def sel_heads(r,nodes, flags):
     """
     根据阈值选取簇头节点
     :param r: 轮数
     :param nodes: 节点列表
+    :param flags: 选择标志
     :param P: 比例因子
     :return: 簇首列表heads,簇成员列表members
     """
-    # 阈值函数: 平均选取5个簇首
-    Tn = 0.05*(100/len(nodes))
+    # 阈值函数 Tn 使用leach计算
+    P = 0.05 * (100 / len(nodes))
+    Tn = P / (1 - P * (r % (1 / P)))
     # print("阈值为:", Tn)
     # 簇首列表
     heads = []
@@ -55,6 +62,7 @@ def sel_heads(nodes):
     for i in range(len(nodes)):
         # 随机数低于阈值-->选为簇首
         if rands[i] <= Tn:
+            flags[i] = 1
             heads.append(nodes[i])
             n_head += 1
             # 被选为簇头，E-1
@@ -69,10 +77,11 @@ def sel_heads(nodes):
     return heads, members
 
 
-def classify(nodes, mode=1, k=100):
+def classify(nodes,flag, mode=1, k=20):
     """
     进行簇分类
     :param nodes: 节点列表
+    :param flag: 节点标记
     :param mode: 0-->显示图片(死亡节点不显示)  1-->显示结束轮数
     :param k: 轮数
     :return: 簇分类结果列表 classes[[类1..],[类2...],......]  [类1...簇首...簇成员]
@@ -87,7 +96,7 @@ def classify(nodes, mode=1, k=100):
         # mode1: 若无死亡节点 继续迭代
         if e_is_empty == 0:
             # 获取簇首列表，簇成员列表
-            heads, members = sel_heads(nodes)
+            heads, members = sel_heads(r,nodes,flag)
             # 建立簇类的列表
             classes = [[] for _ in range(len(heads))]
 
@@ -176,7 +185,7 @@ def show_plt(classes):
         # print("第", i + 1, "类聚类中心为:", centor)
         for point in classes[i]:
             # print("当前节点能量为:",point[2])
-            if point[2]>0:
+            if point[2] > 0:
                 ax1.plot([centor[0], point[0]], [centor[1], point[1]], c=color[i % 6], marker=icon[i % 5], alpha=0.4)
             # mode0: 不显示死亡节点
             else:
@@ -196,11 +205,11 @@ def run():
     :return:
     """
     # N = int(input("请输入节点个数:"))
-    N = 1000
+    N = 100
     # 获取初始节点列表
-    nodes = node_factory(N,energy=5000)
+    nodes,flag = node_factory(N, energy=2000)
     # 对节点列表进行簇分类,mode为模式 2种
-    iter_classes = classify(nodes, mode=1,k=100)
+    iter_classes = classify(nodes,flag, mode=1, k=20)
     # 迭代每次聚类结果，显示连线图
     for classes in iter_classes:
         # 显示分类结果
