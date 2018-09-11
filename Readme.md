@@ -4,6 +4,6 @@
 
 ## Directory
 
-[Object源码阅读](src/main/java/lang/Object.java)
+[Object源码阅读](jdk/lang/Object.java)
 
 []
