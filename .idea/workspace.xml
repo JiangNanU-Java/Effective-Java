@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="928c253e-4339-424c-af45-ea504f2e9657" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/jvm/JVM内存模型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/images/句柄法.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/images/复制算法.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/images/直接指针法.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/images/运行时数据区.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/T-JDK.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/T-JDK_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/T-JDK_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/TCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/collections/TCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/TIterable.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/collections/TIterable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/TArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/collections/list/TArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/TList.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/collections/list/TList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/TMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/collections/map/TMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lang/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/lang/Object.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lang/Object.md" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/lang/Object.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -82,12 +43,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="184">
-                <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <first_editor relative-caret-position="161">
+                <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -97,13 +58,13 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JVM内存模型.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JVM内存模型.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvm/JVM内存模型.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -352,10 +313,10 @@
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/common/TObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/common/Object.java" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/lang/Object.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/jvm/JVM内存模型.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -418,6 +379,12 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Effective-Java\jvm\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Effective-Java\jdk" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -524,7 +491,7 @@
       <workItem from="1536639359048" duration="2737000" />
       <workItem from="1536642410899" duration="19000" />
       <workItem from="1536654139082" duration="1201000" />
-      <workItem from="1536669961518" duration="295000" />
+      <workItem from="1536669961518" duration="793000" />
     </task>
     <task id="LOCAL-00001" summary="T-JDK">
       <created>1536569536688</created>
@@ -547,14 +514,29 @@
       <option name="project" value="LOCAL" />
       <updated>1536640309820</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jvm">
+      <created>1536670286562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536670286563</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jvm">
+      <created>1536670392273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536670392273</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6017000" />
+    <option name="totallyTimeSpent" value="6515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="sbt" order="3" />
@@ -600,7 +582,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="T-JDK" />
     <MESSAGE value="Object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object" />
+    <MESSAGE value="jvm" />
+    <option name="LAST_COMMIT_MESSAGE" value="jvm" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jdk/lang/Object.md">
@@ -823,11 +806,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
+    <entry file="file://$PROJECT_DIR$/jvm/JVM内存模型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="184">
-            <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="277">
+            <caret line="198" column="14" lean-forward="true" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -835,16 +818,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvm/JVM内存模型.md">
+    <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="277">
-            <caret line="198" column="14" lean-forward="true" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
@@ -867,7 +850,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -928,7 +911,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: junit:junit:4.12</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
