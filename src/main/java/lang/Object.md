@@ -4,26 +4,26 @@
 
 
 ----------------------------------------------------------------------------------
-### =>registerNatives()
+### registerNatives()
 __private static native void registerNatives();__
 > 一个本地方法,具体是用C(C++)在DLL中实现的,然后通过JNI(Java Native Interface)调用
 
     对象初始化时自动调用此方法
     static {
         registerNatives();
-   }
+    }
    
 ----------------------------------------------------------------------------------
-### =>构造方法Object()
+### 构造方法Object()
     /**
     * Object类中没有显示的提供构造方法，这是编译器默认提供的。
     */
     public Object() {
         super();
-   }
+    }
    
 ----------------------------------------------------------------------------------
-### =>getClass()
+### getClass()
 
 __public final native Class<?> getClass();__
 
@@ -31,7 +31,7 @@ __public final native Class<?> getClass();__
   该 Class 对象是由所表示类的 static synchronized 方法锁定的对象。
   
 ----------------------------------------------------------------------------------
-### =>hashCode()
+### hashCode()
 
 __public native int hashCode();__
 
@@ -46,7 +46,7 @@ __public native int hashCode();__
     但是,程序员应该意识到,为不相等的对象生成不同整数结果可以提高哈希表的性能。
     
 ----------------------------------------------------------------------------------
-### =>equals(Object obj)
+### equals(Object obj)
 
 __public boolean equals(Object obj)__
 
@@ -59,7 +59,7 @@ public boolean equals(Object obj) {
 > 这里比较的是对象的内存地址
 
 ----------------------------------------------------------------------------------
-### =>clone()
+### clone()
 
 __protected native Object clone() throws CloneNotSupportedException;__
 
@@ -70,7 +70,7 @@ __protected native Object clone() throws CloneNotSupportedException;__
 > Object类的clone方法是一个protected的native方法。由于Object本身没有实现Cloneable接口，所以不重写clone方法并且进行调用的话会发生CloneNotSupportedException异常。
 
 ----------------------------------------------------------------------------------  
-### =>toString()
+### toString()
 
 __public String toString()__
 
@@ -86,14 +86,14 @@ public String toString() {
 > Integer.toHexString(hashCode());将哈希值转成16进制数格式的字符串。
 
 ----------------------------------------------------------------------------------
-### =>notify()
+### notify()
 
 __public final native void notify();__
 
 > 不能被重写，用于唤醒一个在因等待该对象（调用了wait方法）被处于等待状态（waiting 或 time_wait）的线程，该方法只能同步方法或同步块中调用
 
 ----------------------------------------------------------------------------------
-### =>notifyAll()
+### notifyAll()
 
 __public final native void notifyAll();__
 
@@ -101,14 +101,14 @@ __public final native void notifyAll();__
 
 ----------------------------------------------------------------------------------
 
-### =>wait(long timeout)
+### wait(long timeout)
 
 __public final native void wait(long timeout) throws InterruptedException;__
 
 > 不能被重写，用于在线程调用中，导致当前线程进入等待状态（time_waiting)，timeout单位为毫秒,该方法只能同步方法或同步块中调用,超过设置时间后线程重新进入可运行状态
 
 ----------------------------------------------------------------------------------
-### =>wait(long timeout, int nanos)
+### wait(long timeout, int nanos)
 
 __public final void wait(long timeout, int nanos) throws InterruptedException__
 
@@ -136,7 +136,7 @@ public final void wait(long timeout, int nanos) throws InterruptedException {
 > 在实现中，只要nanos合规，则timeout+1即可。
 
 ----------------------------------------------------------------------------------
-### =>wait() 
+### wait() 
 
 __public final void wait() throws InterruptedException__
 
@@ -150,7 +150,7 @@ public final void wait() throws InterruptedException {
 该线程发布对此监视器的所有权并等待,直到其他线程通过调用notify方法或notifyAll方法通知在此对象的监视器上等待的线程醒来,然后该线程将等到重新获得对监视器的所有权后才能继续执行。
 
 ----------------------------------------------------------------------------------
-### =>finalize()
+### finalize()
 
 __protected void finalize() throws Throwable__
   
