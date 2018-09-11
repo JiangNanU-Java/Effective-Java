@@ -1,4 +1,4 @@
-package com.ten.collections;
+package collections;
 
 public interface TCollection {
 }

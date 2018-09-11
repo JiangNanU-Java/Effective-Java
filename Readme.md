@@ -4,7 +4,6 @@
 
 ## Directory
 
-[TOC]
+[Object源码阅读](src/main/java/lang/Object.java)
 
-## TObject 
-> java.lang.Objcet
+[]

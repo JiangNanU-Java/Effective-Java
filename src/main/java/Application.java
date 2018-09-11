@@ -1,7 +1,5 @@
-package com.ten;
-
-import com.ten.collections.TCollection;
-import com.ten.common.TObject;
+import collections.TCollection;
+import lang.Object;
 
 /**
  * JDK Reader
@@ -14,6 +12,6 @@ public class Application {
     private static TCollection collection;
 
     public static void main(String[] args) {
-        TObject object = new TObject();
+        Object object = new Object();
     }
 }
