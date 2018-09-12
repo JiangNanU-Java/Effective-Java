@@ -9,6 +9,14 @@
 
 ## Directory
 
+### 项目管理
+
+[TODO](#)
+
+### WEB
+
+[TODO](#)
+
 ### JDK
 
 [Object源码阅读](jdk/lang/Object.java)
@@ -22,3 +30,5 @@
 [理解JVM优化](jvm/JVM优化.md)
 
 [理解JVM线程并发](jvm/JVM线程并发.md)
+
+[理解JVM与操作系统](https://zhuanlan.zhihu.com/p/44401058)
