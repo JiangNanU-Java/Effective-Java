@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac3dbc0-d82b-4aba-aa5a-cc98f18b8cc5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/jvm/images/处理器内存模型.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/images/线程内存模型.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/images/线程状态转换.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/JVM优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/JVM优化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/JVM优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/JVM代码优化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/JVM线程并发.md" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/JVM线程并发.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +32,9 @@
         <entry file="file://$PROJECT_DIR$/jvm/JVM线程并发.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="392">
+                <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -45,12 +52,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="161">
-                <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+              <first_editor relative-caret-position="692">
+                <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,20 +68,20 @@
         <entry file="file://$PROJECT_DIR$/jvm/JVM内存模型.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="2" selection-end-line="1" />
+              <first_editor relative-caret-position="552">
+                <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JVM优化.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jvm/JVM优化.md">
+      <file leaf-file-name="JVM代码优化.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jvm/JVM代码优化.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="299">
-                <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <first_editor relative-caret-position="2208">
+                <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -98,8 +105,9 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/jvm/JVM类加载机制.md" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/jvm/JVM优化.md" />
+        <option value="$PROJECT_DIR$/jvm/JVM线程并发.md" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -122,8 +130,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,13 +148,18 @@
             <path>
               <item name="Effective-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Effective-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Effective-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Effective-Java" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +248,8 @@
       <updated>1536714875181</updated>
       <workItem from="1536714876721" duration="2756000" />
       <workItem from="1536762061669" duration="130000" />
-      <workItem from="1536800685956" duration="1437000" />
+      <workItem from="1536800685956" duration="4181000" />
+      <workItem from="1536885398837" duration="2253000" />
     </task>
     <task id="LOCAL-00001" summary="jvm类加载机制">
       <created>1536737923898</created>
@@ -250,11 +265,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536762173049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="jvm代码优化">
+      <created>1536807460520</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536807460520</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4323000" />
+    <option name="totallyTimeSpent" value="9320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -273,7 +295,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25725028" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26100966" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -299,7 +321,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jvm类加载机制" />
     <MESSAGE value="jvm与操作系统" />
-    <option name="LAST_COMMIT_MESSAGE" value="jvm与操作系统" />
+    <MESSAGE value="jvm代码优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="jvm代码优化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -337,7 +360,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvm/JVM优化.md">
+    <entry file="file://$PROJECT_DIR$/jvm/JVM代码优化.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2208">
+            <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="483">
+            <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/JVM线程并发.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/JVM类加载机制.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor>
+            <caret column="144" selection-start-column="144" selection-end-column="144" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/JVM内存模型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="2" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/JVM代码优化.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -400,7 +478,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvm/JVM优化.md">
+    <entry file="file://$PROJECT_DIR$/jvm/JVM代码优化.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -415,10 +493,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvm/JVM线程并发.md">
+    <entry file="file://$PROJECT_DIR$/jvm/JVM代码优化.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="2208">
+            <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/JVM内存模型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="552">
+            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -433,11 +523,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvm/JVM内存模型.md">
+    <entry file="file://$PROJECT_DIR$/jvm/JVM线程并发.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="2" selection-end-line="1" />
+          <first_editor relative-caret-position="392">
+            <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
@@ -446,18 +536,8 @@
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jvm/JVM优化.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="299">
-            <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <first_editor relative-caret-position="692">
+            <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>

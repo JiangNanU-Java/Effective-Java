@@ -27,8 +27,10 @@
 
 [理解JVM类加载机制](jvm/JVM类加载机制.md)
 
-[理解JVM代码优化](jvm/JVM优化.md)
+[理解JVM代码优化](jvm/JVM代码优化.md)
 
 [理解JVM线程并发](jvm/JVM线程并发.md)
 
 [理解JVM与操作系统](https://zhuanlan.zhihu.com/p/44401058)
+
+[volatile非线程安全解析](https://blog.csdn.net/wsh596823919/article/details/82698357)
