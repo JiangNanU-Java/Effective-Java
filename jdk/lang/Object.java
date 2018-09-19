@@ -3,7 +3,7 @@ package lang;
 /**
  * Object
  */
-@SuppressWarnings(value = "unchecked")
+@SuppressWarnings("all")
 public class Object {
 
     /**
