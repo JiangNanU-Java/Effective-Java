@@ -1,4 +1,4 @@
 package sql;
 
-public class Connection {
+public interface Connection extends java.sql.Connection {
 }

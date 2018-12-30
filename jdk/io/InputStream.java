@@ -1,4 +1,6 @@
 package io;
 
-public class InputStream {
+import java.io.InputStream;
+
+public abstract class InputStream {
 }
