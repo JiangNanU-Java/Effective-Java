@@ -13,15 +13,15 @@ package pattern.action.chainOfResponsibility;
 import pattern.action.chainOfResponsibility.abs.Handler;
 
 /**
+ * @version V1.0
  * @Package：pattern.action.chainOfResponsibility
  * @ClassName：ChainOfReponsibilityMain
- * @Description：   <p> 责任链模式</p>
+ * @Description： <p> 责任链模式</p>
  * @Author： -
  * @CreatTime：2017年10月26日 下午1:40:32
  * @Modify By：
  * @ModifyTime：
  * @Modify marker：
- * @version V1.0
  */
 public class ChainOfReponsibilityMain {
 
