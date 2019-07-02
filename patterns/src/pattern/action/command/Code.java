@@ -1,11 +1,11 @@
 /**
  * <html>
  * <body>
- *  <P> Copyright 1994 JsonInternational</p>
- *  <p> All rights reserved.</p>
- *  <p> Created on 19941115</p>
- *  <p> Created by Jason</p>
- *  </body>
+ * <P> Copyright 1994 JsonInternational</p>
+ * <p> All rights reserved.</p>
+ * <p> Created on 19941115</p>
+ * <p> Created by Jason</p>
+ * </body>
  * </html>
  */
 package pattern.action.command;
@@ -13,15 +13,15 @@ package pattern.action.command;
 import pattern.action.command.absCommand.Group;
 
 /**
-* @Package：pattern.action.command
-* @ClassName：Code   
-* @Description：   <p> 命令模式  - coder  码农</p>
-* @Author： -  
-* @CreatTime：2017年10月26日 下午5:35:37   
-* @Modify By：   
-* @ModifyTime：  
-* @Modify marker：   
-* @version    V1.0
+ * @Package：pattern.action.command
+ * @ClassName：Code
+ * @Description：   <p> 命令模式  - coder  码农</p>
+ * @Author： -
+ * @CreatTime：2017年10月26日 下午5:35:37
+ * @Modify By：
+ * @ModifyTime：
+ * @Modify marker：
+ * @version V1.0
  */
 public class Code extends Group {
 

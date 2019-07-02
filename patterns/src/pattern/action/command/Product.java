@@ -1,11 +1,11 @@
 /**
  * <html>
  * <body>
- *  <P> Copyright 1994 JsonInternational</p>
- *  <p> All rights reserved.</p>
- *  <p> Created on 19941115</p>
- *  <p> Created by Jason</p>
- *  </body>
+ * <P> Copyright 1994 JsonInternational</p>
+ * <p> All rights reserved.</p>
+ * <p> Created on 19941115</p>
+ * <p> Created by Jason</p>
+ * </body>
  * </html>
  */
 package pattern.action.command;
@@ -13,15 +13,15 @@ package pattern.action.command;
 import pattern.action.command.absCommand.Group;
 
 /**
-* @Package：pattern.action.command
-* @ClassName：Product   
-* @Description：   <p> 命令模式 --- 产品经理</p>
-* @Author： -  
-* @CreatTime：2017年10月26日 下午5:34:14   
-* @Modify By：   
-* @ModifyTime：  
-* @Modify marker：   
-* @version    V1.0
+ * @Package：pattern.action.command
+ * @ClassName：Product
+ * @Description：   <p> 命令模式 --- 产品经理</p>
+ * @Author： -
+ * @CreatTime：2017年10月26日 下午5:34:14
+ * @Modify By：
+ * @ModifyTime：
+ * @Modify marker：
+ * @version V1.0
  */
 public class Product extends Group {
 
@@ -45,8 +45,8 @@ public class Product extends Group {
     public void plan() {
         System.out.println("产品变更完毕");
     }
-    
+
     public void acceptance() {
-    	System.out.println("产品经理验收");
+        System.out.println("产品经理验收");
     }
 }
